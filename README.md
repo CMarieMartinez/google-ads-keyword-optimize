@@ -1,5 +1,5 @@
 # google-ads-keyword-optimize
-Optimize keywords for conversions in a Google Ads search campaign
+Optimize keywords for conversions in a Google Ads Enhanced CPC campaign
 
 The code gets keywords from the Google Ads api and rotates the keywords by enabling previously paused keywords, pausing broad match type keywords with under 5 impressions and less than a 5% CTR, doubling the CPC of already enabled keywords with a CTR above 5% and 100 or less impressions, and giving a 50% increase to the CPC of phrase matching or exact matching keywords with less than 5 impressions. The code puts keywords into one of three arrays: paused, low_ctr and nothing. The three arrays are printed to label the performance of each keyword. 
 
